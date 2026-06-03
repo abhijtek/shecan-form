@@ -113,6 +113,12 @@ Backend runs on:
 http://localhost:5000
 ```
 
+## Deployment
+
+Deployed form link:
+
+https://shecan-form-frontend.onrender.com/
+
 ## API Endpoints
 
 ```txt
