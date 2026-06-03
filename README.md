@@ -1,5 +1,7 @@
 # SheCan Contact Form
 
+Deployed form link: https://shecan-form-frontend.onrender.com/
+
 A MERN stack contact form application for She Can Foundation. Users can submit their name, email, and message, and the submitted messages are stored in MongoDB and shown in a simple messages dashboard.
 
 ## Features
@@ -112,12 +114,6 @@ Backend runs on:
 ```txt
 http://localhost:5000
 ```
-
-## Deployment
-
-Deployed form link:
-
-https://shecan-form-frontend.onrender.com/
 
 ## API Endpoints
 
