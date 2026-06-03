@@ -71,12 +71,12 @@ function App() {
   return (
     <main className="relative min-h-screen overflow-hidden bg-[linear-gradient(135deg,rgba(36,48,71,0.82),rgba(10,91,86,0.76)),url('https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=1600&q=80')] bg-cover bg-center px-4 py-8 text-[#243047] transition-colors dark:bg-[linear-gradient(135deg,rgba(8,13,24,0.9),rgba(7,50,48,0.86)),url('https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=1600&q=80')] dark:text-[#edf6f4]">
       <button
-        className="absolute right-4 top-4 z-20 min-h-11 rounded-lg bg-white/90 px-5 font-bold text-[#243047] shadow-[0_16px_45px_rgba(10,18,32,0.18)] backdrop-blur transition hover:-translate-y-0.5 hover:bg-white dark:bg-[#101827]/90 dark:text-[#edf6f4] dark:hover:bg-[#172033] sm:right-6 sm:top-6"
+        className="absolute right-4 top-4 z-20 grid h-11 w-11 place-items-center rounded-lg bg-white/90 text-xl font-bold text-[#243047] shadow-[0_16px_45px_rgba(10,18,32,0.18)] backdrop-blur transition hover:-translate-y-0.5 hover:bg-white dark:bg-[#101827]/90 dark:text-[#edf6f4] dark:hover:bg-[#172033] sm:right-6 sm:top-6"
         type="button"
         onClick={() => setTheme(isDarkMode ? "light" : "dark")}
-        aria-label="Toggle color theme"
+        aria-label={isDarkMode ? "Switch to light mode" : "Switch to dark mode"}
       >
-        {isDarkMode ? "Light" : "Dark"}
+        {isDarkMode ? "☀" : "☾"}
       </button>
 
       <div className="mx-auto flex min-h-[calc(100vh-64px)] w-full max-w-6xl flex-col justify-center gap-5 pt-14 sm:pt-0">
